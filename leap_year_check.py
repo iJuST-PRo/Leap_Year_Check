@@ -3,7 +3,7 @@ class Leap():
     def isleap(year):
         if year % 4 == 0 and year % 100 != 0:
             return print(f'{year} is a leap year')
-        elif year % 400 == 0 and year % 100 == 0:
+        elif year % 400 == 0:
             return print(f'{year} is a leap year')
         else:
             return print(f'{year} is not a leap year')
